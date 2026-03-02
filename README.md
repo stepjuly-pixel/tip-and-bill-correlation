@@ -55,7 +55,7 @@ The project uses the built-in Seaborn `tips` dataset containing 244 records with
 
 - Most data points are concentrated in the lower-left region, with a few high-value outliers.
 
-<img src="images/scatter_plot.png" width="550" height="400"/>
+<img src="images/scatter_plot.png" width="550" />
 
 ### Pearson Correlation
 
@@ -77,7 +77,7 @@ The project uses the built-in Seaborn `tips` dataset containing 244 records with
 
 - Since neither variable follows a normal distribution and outliers are present, **Spearman's method** is the more appropriate correlation measure for this data.
 
-![Distributions](images/distributions.png)
+<img src="images/distributions.png" width="700" />
 
 ### Group Size vs Total Bill
 
@@ -87,7 +87,7 @@ The project uses the built-in Seaborn `tips` dataset containing 244 records with
 
 - Larger groups tend to generate higher bills, but the relationship is moderate — not deterministic.
 
-<img src="images/size_distribution.png" width="550" height="400"/>
+<img src="images/size_distribution.png" width="550" />
 
 ## How to Run
 
@@ -99,16 +99,17 @@ The project uses the built-in Seaborn `tips` dataset containing 244 records with
 pip install -r requirements.txt
 ```
 
-3. Open Tip_and_Bill_Correlation.ipynb in Jupyter Notebook or Google Colab
+3. Open [`Tip_and_Bill_Correlation.ipynb`](Tip_and_Bill_Correlation.ipynb) in Jupyter Notebook or Google Colab
 
 ## Project Structure
+
 ```
 tip-and-bill-correlation/
 ├── images/
-│   └── scatter_plot.png
-|   └── distributions.png
-|   └── size_distribution.png  
+│   ├── scatter_plot.png
+│   ├── distributions.png
+│   └── size_distribution.png
 ├── Tip_and_Bill_Correlation.ipynb
-├── requirements.txt 
+├── requirements.txt
 └── README.md
 ```
