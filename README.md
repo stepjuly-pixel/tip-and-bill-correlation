@@ -104,14 +104,11 @@ pip install -r requirements.txt
 ## Project Structure
 ```
 tip-and-bill-correlation/
-
-    Tip_and_Bill_Correlation.ipynb
-    requirements.txt
-    README.md
-
-    images/
-
-        scatter_plot.png
-        distributions.png
-        size_distribution.png
+├── images/
+│   └── scatter_plot.png
+|   └── distributions.png
+|   └── size_distribution.png  
+├── Tip_and_Bill_Correlation.ipynb
+├── requirements.txt 
+└── README.md
 ```
